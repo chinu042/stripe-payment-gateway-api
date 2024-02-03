@@ -1,0 +1,77 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "stripe-payment-gateway-api",
+    "dateExported": "2024-02-03T19:30:30.679Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e3539d4a-29c4-43a4-ae9b-01c4fadb95c6",
+            "colId": "bfd56bf2-7e37-47ba-a823-d0e723f5b1f5",
+            "containerId": "",
+            "name": "http://localhost:5000/api/v1/get_intent",
+            "url": "http://127.0.0.1:5000/api/v1/get_intents?id=3OfmXdSC8Tye0yo400WLdP",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-03T19:27:24.330Z",
+            "modified": "2024-02-03T19:27:24.330Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3OfmXdSC8Tye0yo400WLdP",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f6569838-396c-437c-b6fb-b27228cb00d9",
+            "colId": "bfd56bf2-7e37-47ba-a823-d0e723f5b1f5",
+            "containerId": "",
+            "name": "http://localhost:5000/api/v1/create_intent Copy Copy",
+            "url": "http://localhost:5000/api/v1/create_refund/3OfmXdSC8Tye0yo400WLdPM0",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-03T19:27:38.175Z",
+            "modified": "2024-02-03T19:27:38.175Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7907f048-6f35-4e84-a929-86e390ab6733",
+            "colId": "bfd56bf2-7e37-47ba-a823-d0e723f5b1f5",
+            "containerId": "",
+            "name": "http://localhost:5000/api/v1/capture_intent",
+            "url": "http://127.0.0.1:5000/api/v1/capture_intent/pi_3OfmXdSC8Tye0yo400WLdPM0",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-03T19:27:53.313Z",
+            "modified": "2024-02-03T19:27:53.313Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "56d3e06a-2dce-42ec-b94a-c3eb23deca06",
+            "colId": "bfd56bf2-7e37-47ba-a823-d0e723f5b1f5",
+            "containerId": "",
+            "name": "http://localhost:5000/api/v1/get_intent",
+            "url": "http://127.0.0.1:5000/api/v1/get_intents?id=3OfmXdSC8Tye0yo400WLdP",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-03T19:28:02.561Z",
+            "modified": "2024-02-03T19:28:02.561Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3OfmXdSC8Tye0yo400WLdP",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
