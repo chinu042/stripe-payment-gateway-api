@@ -44,3 +44,7 @@ Make sure to set the appropriate values for the following variables in the Makef
 
 Feel free to contribute to this repository by submitting pull requests or reporting issues.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
